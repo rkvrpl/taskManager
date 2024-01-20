@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+*, *:before, *:after {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.form_section {
+    display: flex;
+    justify-content: center;
+}
+.task_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title {
+    font-size: 5vw;
+}
+.input,
+.button_form{
+    border:0;
+    box-shadow:0 0 15px 4px rgba(0, 0, 0, 0.131);
+    padding: 12px 20px;
+    margin: 2px 0;
+}
+input[type=text]:focus {
+    background-color: rgba(181, 197, 226, 0.432);
+}
+.button_form{
+    background-color: rgb(50, 50, 164);
+    color: rgb(181, 197, 226);
+}
+.button_form:hover{
+    background-color:rgba(181, 197, 226, 0.432);
+    color: rgb(50, 50, 164);
+}
+.task {
+    opacity: 0.3;
+}
+.button {
+    border:0;
+    box-shadow:0 0 15px 4px rgba(0, 0, 0, 0.131);
+    padding: 12px 20px;
+    margin: 2px 0;
+}
+.button:focus{
+    background-color:rgba(181, 197, 226, 0.432);
+    color: rgb(50, 50, 164);
+}
+.new_task {
+}
+.hide{
+    display: none;
+}
