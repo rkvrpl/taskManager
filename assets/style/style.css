@@ -15,6 +15,9 @@
 .title {
     font-size: 5vw;
 }
+.input{
+    width: 70%;
+}
 .input,
 .button_form{
     border:0;
@@ -46,8 +49,15 @@ input[type=text]:focus {
     background-color:rgba(181, 197, 226, 0.432);
     color: rgb(50, 50, 164);
 }
+li {
+    list-style-type: none;
+}
 .new_task {
 }
 .hide{
     display: none;
+}
+.completed{
+    opacity: 0.3;
+    text-decoration: line-through; 
 }
