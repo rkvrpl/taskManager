@@ -52,8 +52,6 @@ input[type=text]:focus {
 li {
     list-style-type: none;
 }
-.new_task {
-}
 .hide{
     display: none;
 }
